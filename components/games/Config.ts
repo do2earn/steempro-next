@@ -25,7 +25,7 @@ export const THIRD_PARTY_GAMES: Game[] = [
     description:
       "SteemHop is a thrilling, endless-runner game powered by the Steem Blockchain and built especially for the Steem community. In this game, you guide your character through busy roads, dodge speeding trains, and navigate unexpected obstacles. Every jump is a test of skill, timing, and courage. ",
     image:
-      "https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmXt32CRjE3UBEw48QJtu17UkqryEGPKQ6HPXtqVuedCzd/STEEMHOP%20FINAL%20LOGO.png",
+      "https://steemitimages.com/640x0/https://cdn.steemimages.com/DQmXt32CRjE3UBEw48QJtu17UkqryEGPKQ6HPXtqVuedCzd/STEEMHOP%20FINAL%20LOGO.png",
     category: "Arcade",
     difficulty: "Medium",
     href: "https://steemhop.org",
@@ -45,7 +45,7 @@ export const THIRD_PARTY_GAMES: Game[] = [
     description:
       "Cur8 Games is a gaming platform built on Steem where players can enjoy arcade, card and casual games while earning rewards. Play, complete quests, level up your profile and compete in the weekly leaderboard to win STEEM prizes!",
     image:
-      "https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmfE69wWrabJQwBXZ75RR8pZqzPt9h8M75GJ98MoSNNJjA/image.png",
+      "https://steemitimages.com/640x0/https://cdn.steemimages.com/DQmfE69wWrabJQwBXZ75RR8pZqzPt9h8M75GJ98MoSNNJjA/image.png",
     category: "Platform",
     difficulty: "Medium",
     href: "https://games.cur8.fun",
@@ -65,7 +65,7 @@ export const THIRD_PARTY_GAMES: Game[] = [
     description:
       "Summon elemental battle cards, raid weekly boss monsters with other players, and earn real STEEM rewards in this Tap2Earn crypto game.",
     image:
-      "https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmPCwz9KvoHNnUsA3KSkA2cpMzQqJrrU3nAoypQp35QNsQ/main_4000.jpg",
+      "https://steemitimages.com/640x0/https://cdn.steemimages.com/DQmPCwz9KvoHNnUsA3KSkA2cpMzQqJrrU3nAoypQp35QNsQ/main_4000.jpg",
     category: "Strategy",
     difficulty: "Easy",
     href: "https://hari-raid.h4lab.com",
@@ -74,6 +74,25 @@ export const THIRD_PARTY_GAMES: Game[] = [
     developer: {
       name: "H4LAB",
       website: "http://h4lab.com/",
+    },
+  },
+
+  {
+    id: "steemflags",
+    title: "Steem Flags",
+    description: "Guess the Flags & Earn $STEEM",
+    image: "https://cdn.steemitimages.com/DQmVs1rp3ccRm5CMHFdfkcSCXNefGyPtrBfj3ARM8zSXjnj/IMG_20260910_130130.png",
+    category: "Knowledge",
+    difficulty: "Medium",
+    href: "https://steemflags.do2earn.dev/",
+    usesBlockchain: true,
+    stats: {
+      rewards: "External",
+    },
+    developer: {
+      name: "Do2Earn",
+      username: "@do2earn",
+      website: "https://do2earn.dev/",
     },
   },
 ];
